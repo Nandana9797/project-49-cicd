@@ -8,7 +8,7 @@ describe("Project 49 API", () => {
 
         expect(response.statusCode).toBe(200);
         expect(response.text).toBe(
-            "Project 49 CI/CD Pipeline is Working!"
+            "Project 49 CI/CD Pipeline is Working Successfully!"
         );
     });
 
